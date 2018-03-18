@@ -10,14 +10,8 @@ def Find(target, array):
                 continue
             elif target < array[i][j]:
                 break
+            #可以改进为二分查找
     return False;
-    # write code here
-
-target = 1
-
-array=[[1,2,8,9],[2,4,9,12],[4,7,10,13],[6,8,11,15]]
-
-for x in range(6,0,-1):
-    print(x)
-
-#print(Find(target,array))
+target = 2
+array=[[123],[456],[789]]
+print(Find(target,array))
