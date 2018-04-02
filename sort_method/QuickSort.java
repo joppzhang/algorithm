@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @version 1.0
  *
  * 快速排序的递归版本
- *
+ * 快拍的实现方法有不同的类型，选用随机轴可以大幅度优化性能
  */
 public class QuickSort {
     public static void main(String[] args){
