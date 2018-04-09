@@ -25,6 +25,6 @@ class RBT(object):
 		res.r = self.rebuildTree(pre[tin.index(pre[0]) + 1: ], tin[tin.index(pre[0]) + 1: ])
 		return res
 
-# pre=?
-# tin=?
+#Ç°Ğò±éÀú pre=?
+#ÖĞĞĞò±éÀú tin=?
 # test
